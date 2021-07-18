@@ -410,6 +410,19 @@
 	subcategory = CAT_ARMOR
 	always_availible = FALSE
 
+/datum/crafting_recipe/Scrap_Powerarmor
+    name = "salvaged T-45b power armor"
+    result = /obj/item/clothing/suit/armor/f13/power_armor/t45b
+    reqs = list(/obj/item/advanced_crafting_components/conductors = 3, 
+				/obj/item/stack/cable_coil = 30, 
+				/obj/item/stack/crafting/electronicparts = 50, 
+				/obj/item/stack/crafting/metalparts = 50, 
+				/obj/item/stack/crafting/goodparts = 25, 
+				/obj/item/clothing/suit/armor/f13/metalarmor/reinforced = 1)
+    tools = list(TOOL_WORKBENCH)
+    time = 300
+    category = CAT_CLOTHING
+    subcategory = CAT_ARMOR
 //Greaves
 
 /datum/crafting_recipe/plateboot
